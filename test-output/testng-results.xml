@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="43867" started-at="2022-04-19T17:57:52 IST" finished-at="2022-04-19T17:58:36 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.runner@4bb4de6a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="43867" started-at="2022-04-19T17:57:52 IST" finished-at="2022-04-19T17:58:36 IST">
+      <class name="testRunner.runner">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.runner@4bb4de6a]" name="setUpClass" is-config="true" duration-ms="495" started-at="2022-04-19T17:57:52 IST" finished-at="2022-04-19T17:57:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5a6d30e2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.runner@4bb4de6a]" name="runScenario" duration-ms="18587" started-at="2022-04-19T17:57:52 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-19T17:58:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Account page title"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Account page feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.runner@4bb4de6a]" name="runScenario" duration-ms="22167" started-at="2022-04-19T17:58:11 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-19T17:58:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Account section count"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Account page feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testRunner.runner@4bb4de6a]" name="tearDownClass" is-config="true" duration-ms="2580" started-at="2022-04-19T17:58:33 IST" finished-at="2022-04-19T17:58:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunner.runner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
